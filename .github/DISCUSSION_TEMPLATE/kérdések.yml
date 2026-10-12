@@ -1,0 +1,11 @@
+title: "Test form"
+body:
+  - type: markdown
+    attributes:
+      value: "Form loaded OK for this category."
+  - type: textarea
+    attributes:
+      label: Details
+      description: Write something
+    validations:
+      required: true
